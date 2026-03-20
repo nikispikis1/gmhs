@@ -12,30 +12,39 @@ console("7"+4)
 let age = 31;
 console.log(age > 20)
 
-let text = true;
+let text = "True";
 console.log(typeof text)
     
+let a;
+console.log (a)
+let b; = null;
+console.log(b)
 
-let hodnota = null;
-console,log(hodnota)
+let isloggedIn = false;
+console.log(typeof isLoggedIn)
 
-let cisloA = 10+
-let cisloB = 5;
-console.log(cisloA + cisloB)
-console.log(cisloA - cisloB)
-console.log(cisloA * cisloB)
-console.log(cisloA / cisloB)
+// Aritmetické operace
+
+let cisloA = 1;
+let cisloB = 2;
+console.log(cisloA + cisloB);
+console.log(cisloA - cisloB);
+console.log(cisloA * cisloB);
+console.log(cisloA / cisloB);
 
 // Umocňování **
-console.log(cisloA ** cisloB)
+
+console.log(cisloA ** cisloB);
+
 // Zbytek
 
-console.log(cisloA % cisloB)
+console.log(cisloA % cisloB);
 
-console.log(cisloA + cisloB * cisloB)
+console.log(cisloA + cisloB * cisloB);
 
-console.log((cisloA + cisloB) *cisloB)
-//aktualizace proiměnné
+console.log((cisloA + cisloB) * cisloB);
+
+//aktualizace proměnné
 
 let number = 18;
 number = number + 1;
@@ -44,4 +53,5 @@ number -= 2;
 number *= 4
 number /= 6;
 number %= 3;
+
 console.log(number);
