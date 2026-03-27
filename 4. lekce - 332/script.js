@@ -17,7 +17,7 @@ console.log(typeof text)
     
 let a;
 console.log (a)
-let b; = null;
+let b = null;
 console.log(b)
 
 let isloggedIn = false;
